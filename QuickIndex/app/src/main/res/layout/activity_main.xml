@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+   >
+    <ListView
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/lv_main"
+        />
+    <com.denglibin.quickindex.ui.QuickIndexBar
+        android:layout_alignParentRight="true"
+        android:id="@+id/bar"
+        android:layout_width="25dp"
+        android:background="#f00"
+        android:layout_height="match_parent">
+    </com.denglibin.quickindex.ui.QuickIndexBar>
+
+    <TextView
+        android:id="@+id/tv_bg"
+        android:layout_height="80dp"
+        android:layout_width="160dp"
+        android:background="@drawable/bg_shape"
+        android:gravity="center"
+        android:textSize="42sp"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:text="A"
+        />
+
+
+
+
+
+    </RelativeLayout>
